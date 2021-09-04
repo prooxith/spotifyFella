@@ -32,7 +32,7 @@ inputSearch.innerText = 'Search Fella'
 inputSearch.style.opacity = '.5'
 
 loginButt.addEventListener('click', ()=>{
-	document.location.href = 'https://accounts.spotify.com/authorize?client_id=334ed8866b1f4e30bf19e35e50cc392f&redirect_uri=http:%2F%2Flocalhost:3000%2F&response_type=token'
+	document.location.href = 'https://accounts.spotify.com/authorize?client_id=334ed8866b1f4e30bf19e35e50cc392f&redirect_uri=https:%2F%2Fprooxith.github.io%2FspotifyFella%2F&response_type=token'
 })
 
 selector.addEventListener('click', ()=>{
