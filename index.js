@@ -23,7 +23,6 @@ try{
 	token = tokeN
 	console.log(tokeN)
 }catch(error){
-	document.querySelector('.loginFella').style.display = 'none'
 	console.log('tokenDONE')
 }
 
