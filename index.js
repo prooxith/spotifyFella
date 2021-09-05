@@ -16,7 +16,10 @@ var itemSelected = 'Track';
 var token;
 
 try{
-	let tokeN = document.location.href.substring(36,247)
+	let first = window.location.href.match(/=/i).index+1
+	let second = window.location.href.match(/&token_type/i).index
+	
+	let tokeN = document.location.href.substring(first, second)
 	token = tokeN
 	console.log(tokeN)
 }catch(error){
