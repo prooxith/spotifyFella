@@ -108,8 +108,7 @@ const streamSong=()=>{
 	const type = itemSelected.toLowerCase()
 	searchSongs(queryVal, type)
 	selectText.innerText = 'Choose Type:'
-	query.innerText = 'Search Fella'
-	inputSearch.style.opacity = '.5'
+	query.innerText = ''
 }
 
 streamButton.onclick = streamSong
